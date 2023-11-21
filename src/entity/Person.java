@@ -16,12 +16,6 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, String phone, String email) {
-        setName(name);
-        setPhone(phone);
-        setEmail(email);
-    }
-
     public Long getId() {
         return id;
     }

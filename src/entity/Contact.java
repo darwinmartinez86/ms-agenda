@@ -9,9 +9,6 @@ public class Contact {
     private Company company;
     private String role;
 
-    public Contact() {
-    }
-
     public Contact(Person person, Company company, String role) {
         this.id = id;
         this.person = person;

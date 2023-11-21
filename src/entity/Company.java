@@ -11,11 +11,6 @@ public class Company {
     public Company() {
     }
 
-    public Company(String name, String city) {
-        this.name = name;
-        this.city = city;
-    }
-
     public Long getId() {
         return id;
     }
